@@ -1,5 +1,5 @@
 {
-  "name": "woda/tsconfig",
+  "name": "woda-tsconfig",
   "version": "0.0.1-alpha.1",
   "description": "Shared TypeScript config for my WordPress plugins by Woda",
   "main": "tsconfig.json",
