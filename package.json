@@ -1,0 +1,30 @@
+{
+  "name": "woda/tsconfig",
+  "version": "0.0.1-alpha.1",
+  "description": "Shared TypeScript config for my WordPress plugins by Woda",
+  "main": "tsconfig.json",
+  "repository": "git@github.com:wwwoda/tsconfig.git",
+  "authors": [
+    {
+      "name": "Woda",
+      "email": "hello@woda.at",
+      "homepage": "https://www.woda.at"
+    },
+    {
+      "name": "David Mondok",
+      "email": "david@woda.at"
+    },
+    {
+      "name": "Wolfgang Schäfer",
+      "email": "wolfgang@woda.at"
+    }
+  ],
+  "license": "MIT",
+	"keywords": [
+		"tsconfig",
+		"typescript",
+		"ts",
+		"config",
+		"configuration"
+	]
+}
