@@ -10,18 +10,31 @@
     "jsx": "react",
     "declaration": true,
 
-    /* Strict Type-Checking Options */
-    "strict": true,
+    /* Modules */
+    "moduleResolution": "node",
 
-    /* Additional Checks */
+    /* Interop Constraints */
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* Type Checking */
+    "strict": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true,
-    "importsNotUsedAsValues": "error",
 
-    /* Module Resolution Options */
-    "moduleResolution": "node",
-    "allowSyntheticDefaultImports": true,
+    /* Emit */
+    "newLine": "lf",
+    "noEmitOnError": true,
+    "pretty": true,
+    "stripInternal": true,
+
+    /* Completeness */
+    "skipLibCheck": true
   }
 }
