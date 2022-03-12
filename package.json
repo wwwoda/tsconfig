@@ -2,19 +2,8 @@
   "name": "@wwwoda/tsconfig",
   "version": "1.1.0",
   "description": "TypeScript config for projects by Woda",
-  "keywords": [
-    "tsconfig",
-    "typescript",
-    "ts",
-    "config",
-    "configuration"
-  ],
-  "repository": "git@github.com:wwwoda/tsconfig.git",
   "license": "MIT",
-  "main": "tsconfig.json",
-  "files": [
-    "tsconfig.json"
-  ],
+  "repository": "wwwoda/tsconfig.git",
   "authors": [
     {
       "name": "Woda",
@@ -29,5 +18,19 @@
       "name": "Wolfgang Schäfer",
       "email": "wolfgang@woda.at"
     }
+  ],
+  "main": "tsconfig.json",
+	"engines": {
+		"node": ">=12"
+	},
+	"files": [
+		"tsconfig.json"
+	],
+  "keywords": [
+    "tsconfig",
+    "typescript",
+    "ts",
+    "config",
+    "configuration"
   ]
 }
